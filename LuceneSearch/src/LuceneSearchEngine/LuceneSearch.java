@@ -1,3 +1,4 @@
+package LuceneSearchEngine;
 
 public class LuceneSearch {
 
