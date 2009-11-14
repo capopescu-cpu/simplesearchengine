@@ -1,3 +1,4 @@
+package LuceneSearchEngine;
 
 public class LucenePreindex {
 	public static void main(String[] args) {
