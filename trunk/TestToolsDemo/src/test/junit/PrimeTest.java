@@ -17,9 +17,9 @@ public class PrimeTest extends TestCase {
   // All tests have method names beginning with "test":
   public void testIsPrime() {
     System.out.println("Running Prime number test");
-    assertEquals(Prime.isPrime(2), true);
-    assertEquals(Prime.isPrime(3), true);
-    assertEquals(Prime.isPrime(6), false);
+    assertEquals(true,Prime.isPrime(2));
+    assertEquals(false,Prime.isPrime(4));
+    assertEquals(false,Prime.isPrime(49));
   }
 
   public void testNextPrime() {
